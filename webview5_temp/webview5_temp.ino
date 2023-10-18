@@ -25,9 +25,9 @@
 
 // Example creating a thermocouple instance with software SPI on any three
 // digital IO pins.
-#define MAXDO   3
-#define MAXCS   4
-#define MAXCLK  5
+#define MAXDO   23
+#define MAXCS   22
+#define MAXCLK  21
 
 const char* ssid     = "ESP32-Access-Point";
 const char* password = "123456789";
